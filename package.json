@@ -1,0 +1,30 @@
+{
+  "name": "test-react",
+  "version": "1.0.0",
+  "description": "test react",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --verbose",
+    "start": "./node_modules/.bin/webpack && serve ./public",
+    "doc": "./node_modules/.bin/esdoc -c ./esdoc.json"
+  },
+  "author": "Francesco Zanutto",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "esdoc": "^0.4.8",
+    "jest-cli": "^15.1.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "moment": "^2.15.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
